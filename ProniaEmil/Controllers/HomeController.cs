@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProniaEmil.DataAccesLayer;
 using ProniaEmil.ViewModels.Categories;
+using ProniaEmil.ViewModels.Sliders;
 
 namespace ProniaEmil.Controllers
 {
@@ -16,17 +17,15 @@ namespace ProniaEmil.Controllers
 
         public async Task <IActionResult> Index()
         {
-            var data = await _context.Categories
-                .Where(x => !x.IsDeleted)
-                .Select(x => new GetCategoryVM
-                 {
-                    Id=x.Id,
-                    Name=x.Name
-                 }
-                )
-                .OrderByDescending(x => x.Id)
-                .Take(4).ToListAsync();
+            var data = await _context.Sliders.Where(x => !x.IsDeleted).Select(s => new GetSliderVM
+            {
+                Discount = s.Discount,
+                Id = s.Id,
+                ImgUrl = s.ImgUrl,
 
+                SubTitle = s.SubTitle,
+                Title = s.Title
+            }).ToListAsync();
             return View(data);
         }
         public async Task<IActionResult> DeleteTest(int ? id)
