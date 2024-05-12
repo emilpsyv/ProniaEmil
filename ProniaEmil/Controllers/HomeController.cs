@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaEmil.DataAccesLayer;
+using ProniaEmil.Models;
 using ProniaEmil.ViewModels.Categories;
+using ProniaEmil.ViewModels.Home;
 using ProniaEmil.ViewModels.Sliders;
 
 namespace ProniaEmil.Controllers
@@ -12,16 +14,28 @@ namespace ProniaEmil.Controllers
 
         public async Task <IActionResult> Index()
         {
-            var data = await _context.Sliders.Where(x => !x.IsDeleted).Select(s => new GetSliderVM
-            {
-                Discount = s.Discount,
-                Id = s.Id,
-                ImgUrl = s.ImgUrl,
+            List<Slider> sliders = await _context.Sliders.ToListAsync();
+            List<Category> categories = await _context.Categories.ToListAsync();
+            
 
-                SubTitle = s.SubTitle,
-                Title = s.Title
-            }).ToListAsync();
-            return View(data);
+            HomeVM homeVM = new HomeVM
+            {
+                Sliders = sliders,
+                Categories = categories
+            };
+            //var data = await _context.Sliders.Where(x => !x.IsDeleted).Select(s => new GetSliderVM
+            //{
+            //    Discount = s.Discount,
+            //    Id = s.Id,
+            //    ImgUrl = s.ImgUrl,
+
+            //    SubTitle = s.SubTitle,
+            //    Title = s.Title
+            //}).ToListAsync();
+
+
+
+            return View(homeVM);
         }
         public async Task<IActionResult> DeleteTest(int ? id)
         {

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\proniaemil\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\extentions\\fileextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\extentions\\fileextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\proniaemil\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|c:\\users\\emil\\desktop\\code academy task\\task 29\\proniaemil\\proniaemil\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C7DF8FEB-0B5A-49AB-BE3E-B275C583752F}|ProniaEmil\\ProniaEmil.csproj|solutionrelative:proniaemil\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,39 +31,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "RelativeDocumentMoniker": "ProniaEmil\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T23:44:12.017Z"
+              "Title": "FileExtention.cs",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Extentions\\FileExtention.cs",
+              "RelativeDocumentMoniker": "ProniaEmil\\Extentions\\FileExtention.cs",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Extentions\\FileExtention.cs",
+              "RelativeToolTip": "ProniaEmil\\Extentions\\FileExtention.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:16:09.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ProniaEmil\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwDEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T02:30:14.9Z",
+              "WhenOpened": "2024-05-12T13:08:32.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "ProniaEmil\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "ProniaEmil\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Emil\\Desktop\\code academy task\\task 29\\ProniaEmil\\ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ProniaEmil\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T21:45:23.702Z"
+              "WhenOpened": "2024-05-12T14:45:33.286Z",
+              "EditorCaption": ""
             }
           ]
         }

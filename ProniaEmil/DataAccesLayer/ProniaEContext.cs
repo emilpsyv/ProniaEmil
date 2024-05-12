@@ -12,6 +12,11 @@ namespace ProniaEmil.DataAccesLayer
         }
         public DbSet <Category> Categories { get; set; }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<ProductCategory> ProductCategories { get; set; }
+
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
