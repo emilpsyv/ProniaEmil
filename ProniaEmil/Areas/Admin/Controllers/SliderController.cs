@@ -68,7 +68,7 @@ namespace ProniaEmil.Areas.Admin.Controllers
             return View(sliderVM);
         }
         [HttpPost]
-        public async Task<IActionResult> Update(int? id,UpdateSliderVM sliderVM)
+        public async Task<IActionResult> Update(UpdateSliderVM sliderVM, int? id)
         {
             if (id == null || id < 1) { return BadRequest(); }
             Slider existed = await _context.Sliders.FirstOrDefaultAsync(s => s.Id == id);

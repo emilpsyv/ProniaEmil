@@ -6,14 +6,9 @@ using ProniaEmil.ViewModels.Sliders;
 
 namespace ProniaEmil.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(ProniaEContext _context) : Controller
     {
-        private readonly ProniaEContext _context;
-
-        public HomeController(ProniaEContext context)
-        {
-            _context = context;
-        }
+        
 
         public async Task <IActionResult> Index()
         {
