@@ -10,7 +10,7 @@ namespace ProniaEmil.Extentions
         {
             string ext = Path.GetExtension(file.FileName);
             string newName = Path.GetRandomFileName();
-            await using FileStream fs = new FileStream(Path.Combine(path, "imgs", "products", newName + ext), FileMode.Create);
+            await using FileStream fs = new FileStream(Path.Combine(path, newName + ext), FileMode.Create);
             await file.CopyToAsync(fs);
             return  newName+ext;
         }
